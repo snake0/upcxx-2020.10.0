@@ -1,0 +1,46 @@
+UPC++ configure: ./configure --prefix=/home/snake0/upcxx-install
+System: Linux node2 5.8.0-36-generic #40~20.04.1-Ubuntu SMP Wed Jan 6 10:15:55 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.1 LTS
+Release:	20.04
+Codename:	focal
+ 
+Date: 2021年 01月 13日 星期三 18:17:47 CST
+Current directory: /home/snake0/upcxx-2020.10.0
+Install directory: /home/snake0/upcxx-install
+Configure command: ./configure --prefix=/home/snake0/upcxx-install
+Configure environment:
+    GASNET='/home/snake0/upcxx-2020.10.0/src/GASNet-2020.10.0.tar.gz'
+ 
+/usr/bin/g++
+g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+/usr/bin/gcc
+gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+ 
+/usr/bin/python3: Python 3.8.5
+
+/usr/bin/make
+GNU Make version 4.2.1
+
+UPC++ configuration complete.
+Recommended next steps:
+  1. 'make all'
+  2. 'make check'
+  3. 'make install'
+
+********
+
+WARNING: The initial shell was not bash version 3.2 or newer.
+WARNING: Using '/usr/bin/bash', found in $PATH.
+NOTE: Run 'full_path_to_bash ./configure [args]' to override the automatic detection.
+
+********
+

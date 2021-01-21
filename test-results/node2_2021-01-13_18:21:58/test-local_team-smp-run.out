@@ -1,0 +1,4 @@
+Test: local_team.cpp
+Ranks: 4
+local_team.rank_n() = 4
+Test result: SUCCESS

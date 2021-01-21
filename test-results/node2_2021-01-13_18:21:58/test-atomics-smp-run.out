@@ -1,0 +1,595 @@
+Test: atomics.cpp
+Ranks: 4
+****************** Testing atomics on world team ******************
+ --- Testing atomic_domain<int32_t> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<uint32_t> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<int64_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<uint64_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<float> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<double> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- SKIPPING atomic_domain<short> --- (16-bit)
+ --- SKIPPING atomic_domain<unsigned short> --- (16-bit)
+ --- Testing atomic_domain<int> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<unsigned int> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<long> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<unsigned long> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<long long> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<unsigned long long> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<ptrdiff_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<size_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<intptr_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<uintptr_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<intmax_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<uintmax_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+PASSED
+****************** Testing atomics on split world team ******************
+ --- Testing atomic_domain<int32_t> --- (32-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<uint32_t> --- (32-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<int64_t> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<uint64_t> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<float> --- (32-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Final value is 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<double> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- SKIPPING atomic_domain<short> --- (16-bit)
+ --- SKIPPING atomic_domain<unsigned short> --- (16-bit)
+ --- Testing atomic_domain<int> --- (32-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<unsigned int> --- (32-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<long> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 20
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<unsigned long> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<long long> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 10
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<unsigned long long> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 10
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<ptrdiff_t> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<size_t> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<intptr_t> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<uintptr_t> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<intmax_t> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 20
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<uintmax_t> --- (64-bit)
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 10
+Test fetch_add: atomics, expect value 20
+Final value is 10
+Test puts and gets: expect a random rank number
+Final value is 10
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+Final value is 0
+PASSED
+****************** Testing atomics on local team ******************
+ --- Testing atomic_domain<int32_t> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<uint32_t> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<int64_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<uint64_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<float> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<double> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- SKIPPING atomic_domain<short> --- (16-bit)
+ --- SKIPPING atomic_domain<unsigned short> --- (16-bit)
+ --- Testing atomic_domain<int> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<unsigned int> --- (32-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<long> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<unsigned long> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<long long> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<unsigned long long> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<ptrdiff_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<size_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 1
+ --- Testing atomic_domain<intptr_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<uintptr_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<intmax_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+ --- Testing atomic_domain<uintmax_t> --- (64-bit)
+Test fetch_add: atomics, expect value 40
+Final value is 40
+Test puts and gets: expect a random rank number
+Final value is 0
+PASSED
+****************** Testing atomics on split local team ******************
+ --- Testing atomic_domain<int32_t> --- (32-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<uint32_t> --- (32-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<int64_t> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<uint64_t> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<float> --- (32-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<double> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- SKIPPING atomic_domain<short> --- (16-bit)
+ --- SKIPPING atomic_domain<unsigned short> --- (16-bit)
+ --- Testing atomic_domain<int> --- (32-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Final value is 20
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<unsigned int> --- (32-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<long> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<unsigned long> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<long long> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<unsigned long long> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<ptrdiff_t> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<size_t> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<intptr_t> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<uintptr_t> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<intmax_t> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+ --- Testing atomic_domain<uintmax_t> --- (64-bit)
+Test fetch_add: atomics, expect value 20
+Test fetch_add: atomics, expect value 20
+Final value is 20
+Final value is 20
+Test puts and gets: expect a random rank number
+Test puts and gets: expect a random rank number
+Final value is 0
+Final value is 0
+PASSED
+Test result: SUCCESS

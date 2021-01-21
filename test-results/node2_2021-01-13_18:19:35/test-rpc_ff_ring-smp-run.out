@@ -1,0 +1,7 @@
+Test: rpc_ff_ring.cpp
+Ranks: 4
+Rank 0 done
+Rank 1 done
+Rank 2 done
+Rank 3 done
+Test result: SUCCESS

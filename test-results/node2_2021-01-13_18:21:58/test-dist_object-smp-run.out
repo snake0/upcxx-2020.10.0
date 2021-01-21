@@ -1,0 +1,7 @@
+Test: dist_object.cpp
+Ranks: 4
+3's nebr values = 100, 200
+0's nebr values = 101, 201
+1's nebr values = 102, 202
+2's nebr values = 103, 203
+Test result: SUCCESS

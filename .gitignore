@@ -1,0 +1,24 @@
+# backup files
+*~
+*.bak
+BAK
+
+# vim tmp files
+.*.swp
+
+# objects and libraries
+*.o
+*.lo
+*.a
+*.la
+
+# autotools dirs
+.deps
+.libs
+
+# generated files if blddir==srcdir
+Makefile
+bin/
+bld/GASNet-*
+bld/gasnet.*
+bld/upcxx.*

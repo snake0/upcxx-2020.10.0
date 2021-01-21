@@ -1,0 +1,63 @@
+Test: vis.cpp
+Ranks: 4
+
+sending to 0:  3 4 5 6 7 8
+
+Irregular test 2 
+
+Regular put test 1
+
+Strided put testing 
+Irregular rget test 1
+
+leaving for 0:  3 4 5 6 7 8
+Irregular rget test 2
+rget_strided test 1
+rput_strided with transpose
+rget_strided with transpose
+
+sending to 3:  2 3 4 5 6 7
+
+Irregular test 2 
+
+Regular put test 1
+
+Strided put testing 
+Irregular rget test 1
+
+leaving for 3:  2 3 4 5 6 7
+Irregular rget test 2
+rget_strided test 1
+rput_strided with transpose
+rget_strided with transpose
+
+sending to 2:  1 2 3 4 5 6
+
+Irregular test 2 
+
+Regular put test 1
+
+Strided put testing 
+Irregular rget test 1
+
+leaving for 2:  1 2 3 4 5 6
+Irregular rget test 2
+rget_strided test 1
+rput_strided with transpose
+rget_strided with transpose
+
+sending to 1:  0 1 2 3 4 5
+
+Irregular test 2 
+
+Regular put test 1
+
+Strided put testing 
+Irregular rget test 1
+
+leaving for 1:  0 1 2 3 4 5
+Irregular rget test 2
+rget_strided test 1
+rput_strided with transpose
+rget_strided with transpose
+Test result: SUCCESS

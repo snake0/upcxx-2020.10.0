@@ -1,0 +1,7 @@
+Test: rput.cpp
+Ranks: 4
+get(put(X)) == X
+get(put(X)) == X
+get(put(X)) == X
+get(put(X)) == X
+Test result: SUCCESS

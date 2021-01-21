@@ -1,0 +1,4 @@
+Test: rput_thread.cpp
+Ranks: 4
+Threads: 10
+Test result: SUCCESS
